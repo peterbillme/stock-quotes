@@ -52,6 +52,6 @@ if __name__ == '__main__':
     pd.set_option('max_colwidth', 120)
     pd.options.display.width = 2080
 
-    update_quotes_spx500()
+    # update_quotes_spx500()
 
     load_quotes('MMM', '1wk')
